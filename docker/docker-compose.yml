@@ -8,6 +8,7 @@ services:
       - ../project/:/var/www/html
     ports:
       - "8080:80"
+      - "3307:3306"
     networks:
       unad:
         aliases:
